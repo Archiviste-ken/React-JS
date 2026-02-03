@@ -28,5 +28,10 @@ import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
-    
+
 )
+
+
+//react strict mode is a tool for highlighting potential problems in an application. Like Fragment, StrictMode does not render any visible UI. It activates additional checks and warnings for its descendants.
+
+// it is not necessary to use strict mode but it is a good practice to use it in order to find potential problems in the application.
