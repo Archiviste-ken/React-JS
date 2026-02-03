@@ -2,9 +2,9 @@ import App from './App.jsx'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  
     <App />
-  </StrictMode>,
+  
 
 ) 
