@@ -1,6 +1,6 @@
 import Ken from './Ken';
 
-function App() {
+function A pp() {
   return (
 <>
 <Ken />
