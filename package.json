@@ -2,14 +2,14 @@
   "devDependencies": {
     "autoprefixer": "^10.4.22",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.17"
+    "tailwindcss": "^4.1.18"
   },
   "name": "reactjs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.17",
+    "@tailwindcss/vite": "^4.1.18",
     "baseline-browser-mapping": "^2.8.28",
     "browserslist": "^4.28.0",
     "caniuse-lite": "^1.0.30001754",
