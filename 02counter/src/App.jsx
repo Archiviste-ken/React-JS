@@ -5,41 +5,26 @@ import './App.css'
 
 function App() {
 
-    let [counter, setCounter] = useState(15) // setCounter is function to update counter value
- // useState hook is used to create state variable in functional componentate 
-  // let counter = 15
+  let counter = 15
 
   const addValue = () => {
-    console.log("clicked", counter);
-    
-  //  counter = counter + 1
-  setCounter(counter + 1)  // updating the counter value using setCounter function
-}
-
-  const removeValue = () => {
-    console.log("remove clicked", counter);
-    
-    // counter = counter - 1
-    setCounter(counter - 1)  // updating the counter value using setCounter function
+    console.log("clicked",counter);
+   counter = counter + 1
   }
-    
+
   return (
+
     <>
-      <h1> Chai aur react</h1>
-      <h2>Counter value: {counter}</h2>
+      <h1>This is react</h1>
+      <h2> Counter value: {counter}</h2>
 
       <button
-      onClick= {addValue}>Add button {counter}</button>
+      onClick={addValue}> Add Value</button>
       <br />
-      <button
-      onClick = {removeValue}>remove value {counter} </button>
-      <p>footer: {counter}</p>
-    </>
+      <button> Remove Value</button>
+      </>
   )
+
 }
-
-
-
-
 
 export default App
