@@ -16,8 +16,8 @@ let newArr = [1,2,3]
     <>
    <h1 className='bg-green-400 text-black p-4 rounded-xl'> Tailwind Test</h1>
 
-<Card channel = "ReactJs"/>
-<Card />
+<Card username = "ReactJs" btnText="Click Me"/>
+<Card username = "ReactJs" />
     </>
   )
 }
