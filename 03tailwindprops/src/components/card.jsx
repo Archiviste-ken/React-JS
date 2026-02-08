@@ -1,7 +1,7 @@
 import React from 'react'
 
-function card(props) {
-    console.log("props",props);
+function card({username, btnText = "visit me"}) {
+    console.log(username, btnText);
     
   return (
     
@@ -10,12 +10,12 @@ function card(props) {
     <img className="size-48 shadow-xl rounded-md" alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNubLmqdOK9pZWU-2IiD20cuSIdUUDi9-NvQ&s" />
   </div>
   <div className="flex items-center md:items-start">
-    <span class="text-2xl font-medium">Class Warfare</span>
-    <span class="font-medium text-sky-500">The Anti-Patterns</span>
-    <span class="flex gap-2 font-medium text-gray-600 dark:text-gray-400">
-      <span>No. 4</span>
+    <span className="text-2xl font-medium">{username}</span>
+    <span className="font-medium text-sky-500">{username}</span>
+    <span className="flex gap-2 font-medium text-gray-600 dark:text-gray-400">
+      <span>{btnText}</span>
       <span>·</span>
-      <span>2025</span>
+      <span>{btnText}</span>
     </span>
   </div>
 </div>
