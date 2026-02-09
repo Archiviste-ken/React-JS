@@ -17,6 +17,10 @@ function App() {
     setCounter(prevCounter => prevCounter + 1)
   }
 
+  // prevCounter is the previous value of counter, and we are updating it by adding 1 to it. This way we ensure that we are always working with the latest value of counter, even if there are multiple updates in a short period of time.
+
+
+  // prevCounter gives the existing state, it is the hidden feature of useState, it accepts a function callback, prevCounter is the last updatded state. 
   const removeValue = () =>{
     setCounter(counter - 1)
   }
