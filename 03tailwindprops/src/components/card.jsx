@@ -23,3 +23,6 @@ function card({username, btnText = "visit me"}) {
 }
 
 export default card
+
+
+// props are the way to pass data from parent component to child component in react. It is a read only data, it cannot be modified by the child component. It is used to pass data from parent component to child component. It is also used to pass data from child component to parent component using callback functions.
